@@ -20,5 +20,12 @@ class Calculadora
     public function division(){
         return $this->num1 / $this->num2;
     }
+     public function resta(){
+        return $this->num1-$this->num2;
+    }
+
+   public function resto(){
+        return $this->num1 % $this->num2;
+    }
 }
 ?>
