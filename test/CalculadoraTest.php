@@ -20,6 +20,17 @@ final class CalculadoraTest extends TestCase
     $calc = new Calculadora(5,2);
     $this->assertEquals(2.5,$calc->division());
   }
+  public function testResta()
+    {
+        $calc = new Calculadora(5,4);
+        $this->assertEquals(1,$calc->resta());
+    }
+
+    public function testResto()
+    {
+        $calc = new Calculadora(5,2);
+        $this->assertEquals(1,$calc->resto());
+    }
 }
 
 ?>
