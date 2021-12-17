@@ -10,6 +10,12 @@ final class CalculadoraTest extends TestCase
       $this->assertEquals(7,$calc->suma());
   }
   
+  public function testMultiplicacion()
+    {
+        $calc = new Calculadora(3,4);
+        $this->assertEquals(12,$calc->multiplicacion());
+    }
+  
   public function testDivision(){
     $calc = new Calculadora(5,2);
     $this->assertEquals(2.5,$calc->division());
