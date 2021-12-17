@@ -12,5 +12,9 @@ class Calculadora
     public function suma(){
         return $this->num1+$this->num2;
     }
+    
+    public function division(){
+        return $this->num1 / $this->num2;
+    }
 }
 ?>
