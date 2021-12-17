@@ -9,20 +9,5 @@ class Calculadora
         $this->num1=$a1;
         $this->num2=$a2;
     }
-    public function suma(){
-        return $this->num1+$this->num2;
-    }
-
-    public function resta(){
-        return $this->num1-$this->num2;
-    }
-
-    public function division(){
-        return $this->num1/$this->num2;
-    }
-
-    public function resto(){
-        return $this->num1 % $this->num2;
-    }
 }
 ?>
