@@ -17,10 +17,6 @@ class Calculadora
         return $this->num1-$this->num2;
     }
 
-    public function multiplicacion(){
-        return $this->num1*$this->num2;
-    }
-
     public function division(){
         return $this->num1/$this->num2;
     }
